@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+a {    
+    text-decoration: none;
+    color: black;
+}
+.number {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DFC5B9;
+}
+b {
+    font-size: 13px;
+}
+.information {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 39%;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.location {
+    display: block;
+    text-align: left;
+}
+.persona_photo,
+.location {
+    flex: 1;
+}
+p.location_info {
+    text-transform: uppercase;
+    color: #DFC5B9;
+    font-weight: bold;
+    font-size: 13px;
+}
+p {
+    font-size: 10px;
+}
+p.first_title {
+    max-width: 80%;
+}
+hr {
+    border: none;
+    height: 6px;
+    text-align: left;
+    background-color: black;
+    max-width: 70%;
+    margin-left: 0;
+}
